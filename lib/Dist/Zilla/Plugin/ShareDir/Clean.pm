@@ -121,9 +121,9 @@ In your dist.ini:
 =head1 DESCRIPTION
 
 This plugin is an alternative to using L<Dist::Zilla::Plugin::ShareDir::Tarball>
-(please read the documentation of that module first). With this plugin, you can
-keep using L<Dist::Zilla::Plugin::ShareDir>, but eliminate the problem of
-lingering old files.
+(please read the documentation of that module first for the rationale). With
+this plugin, you can keep using L<Dist::Zilla::Plugin::ShareDir>, but eliminate
+the problem of lingering old files.
 
 What this plugin does is search for old shared files (currently the only method
 used is by performing a C<git log --numstat> on your repository and comparing
@@ -152,6 +152,9 @@ quoting style, use of C<rm> command, ...).
 =item * When user downgrades, files from newer version won't be deleted.
 
 =back
+
+All in all, I think Yanick's ShareDir::Tarball plugin is a slightly more elegant
+hack and I use it. But when it's more appropriate, I use this plugin too.
 
 
 =head1 CONFIGURATION
