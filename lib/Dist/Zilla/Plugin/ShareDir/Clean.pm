@@ -126,8 +126,8 @@ keep using L<Dist::Zilla::Plugin::ShareDir>, but eliminate the problem of
 lingering old files.
 
 What this plugin does is search for old shared files (currently the only method
-used is by performing a C<git log --stat> on your repository and comparing the
-files to what is currently in the working directory. A section will then be
+used is by performing a C<git log --numstat> on your repository and comparing
+the files to what is currently in the working directory). A section will then be
 added to the generated C<Makefile.PL> to remove the old files during
 installation.
 
