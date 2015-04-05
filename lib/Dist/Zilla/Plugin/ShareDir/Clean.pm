@@ -149,6 +149,8 @@ uses for path separator on those systems.
 The commands in the generated C<Makefile.PL> is currently Unix-style (shell
 quoting style, use of C<rm> command, ...).
 
+=item * When user downgrades, files from newer version won't be deleted.
+
 =back
 
 
