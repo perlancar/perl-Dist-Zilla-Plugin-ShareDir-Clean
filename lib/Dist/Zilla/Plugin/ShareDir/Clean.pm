@@ -12,7 +12,6 @@ use Moose;
 use namespace::autoclean;
 
 use File::Find;
-use IPC::System::Options qw(backtick);
 use List::Util qw(first);
 
 with (
