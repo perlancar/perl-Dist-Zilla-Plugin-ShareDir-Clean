@@ -1,5 +1,12 @@
 Revision history for Dist-Zilla-Plugin-ShareDir-Clean
 
+0.05    2016-06-08 (PERLANCAR)
+
+	- No functional changes.
+
+	- Remove unused prereq IPC::System::Options.
+
+
 0.04    2015-11-07 (PERLANCAR)
 
 	- No functional changes.
