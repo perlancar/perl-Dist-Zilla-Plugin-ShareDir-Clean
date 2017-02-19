@@ -15,14 +15,10 @@
 
 0.03    2015-04-06 (PERLANCAR)
 
-	- Do rm -rf & add warning [GH#1]
-	      
-	      Instead of searching for old share files from 'git log',
-	  simply nuke the
-	      target's per-dist share dir before installation. This is
-	  simpler, can clean
-	      newer files when user downgrade to an older version, and
-	  doesn't require git.
+	- Do rm -rf & add warning [GH#1]. Instead of searching for old share
+	  files from 'git log', simply nuke the target's per-dist share dir
+	  before installation. This is simpler, can clean newer files when user
+	  downgrade to an older version, and doesn't require git.
 
 
 0.02     2015-04-05 (PERLANCAR)
