@@ -1,11 +1,11 @@
-0.05    2016-06-08 (PERLANCAR)
+0.05    2016-06-08  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Remove unused prereq IPC::System::Options.
 
 
-0.04    2015-11-07 (PERLANCAR)
+0.04    2015-11-07  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -13,7 +13,7 @@
 	  version.
 
 
-0.03    2015-04-06 (PERLANCAR)
+0.03    2015-04-06  Released-By: PERLANCAR
 
 	- Do rm -rf & add warning [GH#1]. Instead of searching for old share
 	  files from 'git log', simply nuke the target's per-dist share dir
@@ -21,13 +21,13 @@
 	  downgrade to an older version, and doesn't require git.
 
 
-0.02     2015-04-05 (PERLANCAR)
+0.02     2015-04-05  Released-By: PERLANCAR
 
          - No functional changes.
 
          - [doc] Tweak docs.
 
 
-0.01     2015-04-05 (PERLANCAR)
+0.01     2015-04-05  Released-By: PERLANCAR
 
          - First release.
